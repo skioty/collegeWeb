@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CST College Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Bootstrap Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="logo left-logo">
+                <img src="logo.png" alt="Left Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="logo right-logo">
+                <img src="images.png" alt="Right Logo">
+            </div>
+            <!-- Bootstrap Hamburger Icon -->
+            <div class="menu-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+            <!-- Search Bar -->
+            <form class="search-form" action="#" method="get">
+                <input type="text" class="search-input" placeholder="Search...">
+                <button type="submit" class="search-button"><i class="bi bi-search"></i></button>
+            </form>
+        </div>
+    </header>
+
+    <section id="home">
+        <video id="bg-video" autoplay muted loop playsinline>
+            <source src="college-video.mp4" type="video/mp4">
+        </video>
+        <div class="overlay"></div>
+        <h1>Welcome to CST College</h1>
+        <p>Empowering the future through technology and innovation.</p>
+    </section>
+
+    <section id="courses" class="container mt-5">
+        <h2 class="text-center mb-4">Our Courses</h2>
+        <div class="course-container">
+            <!-- Course 1 -->
+            <div class="course">
+                <img src="course1.jpg" alt="Computer Science">
+                <h3>Computer Science</h3>
+                <p>Learn about algorithms, programming languages, and computer systems.</p>
+                <a href="course1.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <!-- Course 2 -->
+            <div class="course">
+                <img src="course2.jpg" alt="Information Technology">
+                <h3>Information Technology</h3>
+                <p>Explore the world of network systems, security, and database management.</p>
+                <a href="course2.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <!-- Course 3 -->
+            <div class="course">
+                <img src="course3.jpg" alt="Electronics Engineering">
+                <h3>Electronics Engineering</h3>
+                <p>Gain expertise in circuits, electronics design, and embedded systems.</p>
+                <a href="course3.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <!-- Course 4 -->
+            <div class="course">
+                <img src="course4.jpg" alt="Mechanical Engineering">
+                <h3>Mechanical Engineering</h3>
+                <p>Study mechanics, thermodynamics, and material science for designing mechanical systems.</p>
+                <a href="course4.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <!-- Course 5 -->
+            <div class="course">
+                <img src="course5.jpg" alt="Civil Engineering">
+                <h3>Civil Engineering</h3>
+                <p>Design and construct buildings, roads, and bridges with a focus on sustainability.</p>
+                <a href="course5.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <!-- Course 6 -->
+            <div class="course">
+                <img src="course6.jpg" alt="Electrical Engineering">
+                <h3>Electrical Engineering</h3>
+                <p>Master electrical circuits, power systems, and renewable energy technologies.</p>
+                <a href="course6.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <!-- Course 7 -->
+            <div class="course">
+                <img src="course7.jpg" alt="Biotechnology">
+                <h3>Biotechnology</h3>
+                <p>Explore the intersection of biology and technology for innovations in healthcare.</p>
+                <a href="course7.html" class="btn btn-primary">Learn More</a>
+            </div>
+            <!-- Course 8 -->
+            <div class="course">
+                <img src="course8.jpg" alt="Software Engineering">
+                <h3>Software Engineering</h3>
+                <p>Develop software solutions with a focus on design, testing, and deployment.</p>
+                <a href="course8.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+   <!-- Add YouTube Video Section Before About Us -->
+<section id="youtube-video">
+    <h2>Our Latest Video</h2>
+    <div class="youtube-container">
+        <!-- Embed YouTube video (replace with your video link) -->
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+
+<section id="latest-news">
+    <h2>Latest News</h2>
+    <div class="news-grid">
+        <!-- News Item 1 -->
+        <div class="news-item" style="background-image: url('news1.jpg');">
+            <h3>Vacancy Announcement for Various Position</h3>
+            <p>February 17, 2025.</p>
+        </div>
+        <!-- News Item 2 -->
+        <div class="news-item" style="background-image: url('news2.jpg');">
+            <h3>Shortlisted Candidates for the Various Position</h3>
+            <p>March 10, 2025</p>
+        </div>
+        <!-- News Item 3 -->
+        <div class="news-item" style="background-image: url('news3.jpg');">
+            <h3>ADMISSION-2025</h3>
+            <p>February 27, 2025</p>
+        </div>
+    </div>
+    <div class="view-all">
+        <a href="#">View All News</a>
+    </div>
+</section>
+
+
+
+<footer>
+    <div class="contact-footer">
+        <h2>Contact Us</h2>
+        <p>Email: info@cst.edu.bt</p>
+        <p>Phone: +975 2 323456</p>
+        <p>Address: CST Campus, Phuentsholing, Bhutan</p>
+    </div>
+    <p>&copy; 2025 College of Science and Technology. All rights reserved.</p>
+</footer>
+</body>
+
+</html>
